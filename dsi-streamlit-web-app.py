@@ -16,7 +16,7 @@ st.subheader('Enter customer info & submit for likelihood to purchase')
 # add age input form
 # use Streamlit Documentation> API reference> Input widgets
 age = st.number_input(
-    label = "01. Enter the customer's age",
+    label = "01 . Enter the customer's age",
     min_value = 18,
     max_value = 120,
     value = 35)  # this is the default value displayed, otherwise it will show 0
@@ -25,13 +25,13 @@ age = st.number_input(
 
 # add gender input form
 gender = st.radio(
-    label = "02. Enter the customer's gender", 
+    label = "02 . Enter the customer's gender", 
     options = ['M', 'F'])
     
 
 # add credit score input form
 credit_score = st.number_input(
-    label = "03. Enter the customer's credit score",
+    label = "03 . Enter the customer's credit score",
     min_value = 0,
     max_value = 1000,
     value = 500)  # this is the default value displayed, otherwise it will show 0
